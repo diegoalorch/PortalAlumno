@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Iniciar Secion</title>
+<link rel="stylesheet" href="recursos/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="recursos/images/icons/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="recursos/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="recursos/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="recursos/fonts/iconic/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" type="text/css" href="recursos/vendor/animate/animate.css">
+<link rel="stylesheet" type="text/css" href="recursos/vendor/css-hamburgers/hamburgers.min.css">
+<link rel="stylesheet" type="text/css" href="recursos/vendor/animsition/css/animsition.min.css">
+<link rel="stylesheet" type="text/css" href="recursos/vendor/select2/select2.min.css">
+<link rel="stylesheet" type="text/css" href="recursos/vendor/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" type="text/css" href="recursos/css/util.css">
+<link rel="stylesheet" type="text/css" href="recursos/css/mainn.css">
+</head>
+<body>
+<div class="container">
+		<div class="card" style="width: 22rem; float: left;">
+			<h5 class="card-header">Alumnos UPeU</h5>
+			<div class="card-body">
+				<label>Escuela: <select type="id" class="form-control" style="width: 300px" id="school">
+					<option>Escuela</option>
+				</select>
+				</label> 
+				<br> <br> 
+				<label>Apellidos y Nombres: 
+					<input type="text" class="form-control" style="width: 300px" id="name"/>
+				</label> 
+				<br> <br> 
+				<label>Correo: 
+				<input type="text" class="form-control" style="width: 300px" id="correo"/>
+				</label> 
+				<br> <br>
+				<label>Telefono: 
+				<input type="text" class="form-control" style="width: 300px" id="telefono"/>
+				</label>
+				<br> <br>
+				<button class="btn btn-primary" style="width: 200px" id="enviar">Enviar</button>
+			</div>
+		</div>
+		<div class="card" style="width: 46rem;">
+			<table class="table" id="tabla">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Escuela</th>
+						<th scope="col">Apellidos y Nombres</th>
+						<th scope="col">Correo</th>
+						<th scope="col">Telefono</th>
+						<th scope="col">Operaciones</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+<script src="recursos/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="recursos/js/alumno.js"></script>
+<script src="recursos/vendor/animsition/js/animsition.min.js"></script>
+<script src="recursos/vendor/bootstrap/js/popper.js"></script>
+<script src="recursos/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="recursos/vendor/select2/select2.min.js"></script>
+<script src="recursos/vendor/daterangepicker/moment.min.js"></script>
+<script src="recursos/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="recursos/vendor/countdowntime/countdowntime.js"></script>
+<script src="recursos/js/mainn.js"></script>
+<script src="recursos/js/home.js"></script>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</body>
+</html>
